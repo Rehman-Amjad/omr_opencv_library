@@ -1,0 +1,44 @@
+
+C
+java:S1604p"(Make this anonymous inner class a lambda(ÀóÎ¦úÿÿÿÿ
+g	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( ë„òÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğó˜ñ
+o	java:S1160"ZRename this field "sharedpref_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üº¥ü
+x
+java:S3008,"]Rename this field "show_hide_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‡óØøÿÿÿÿ
+œ
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¥×üÿÿÿÿ
+<
+java:S1659)"&Declare "password" on a separate line.(ûÅÌ–
+:
+java:S1659+"$Declare "signUp" on a separate line.(İüı
+f
+java:S14502"QRemove the "db" field and declare it as a local variable in the relevant methods.(ÇÛB
+m
+java:S14501"RRemove the "ref" field and declare it as a local variable in the relevant methods.(ÔÉËùüÿÿÿÿ
+L
+java:S2696<"6Make the enclosing method "static" or remove this set.(È¨„
+L
+java:S2696L"6Make the enclosing method "static" or remove this set.(İÚÛº
+L
+java:S2696N"6Make the enclosing method "static" or remove this set.(·ôÏİ
+Q
+java:S2696O"6Make the enclosing method "static" or remove this set.(¦îÁıÿÿÿÿ
+Q
+java:S2696P"6Make the enclosing method "static" or remove this set.(¯Ñıÿÿÿÿ
+L
+java:S2696Q"6Make the enclosing method "static" or remove this set.( Í˜ó
+Q
+java:S2696R"6Make the enclosing method "static" or remove this set.(ğşÔÉıÿÿÿÿ
+K
+java:S2696S"6Make the enclosing method "static" or remove this set.(°»»@
+L
+java:S2696U"6Make the enclosing method "static" or remove this set.(ïİÊá
+L
+java:S2696X"6Make the enclosing method "static" or remove this set.(èïÇ
+V	java:S125\"<This block of commented-out lines of code should be removed.(ç”œ€ÿÿÿÿÿ
+=	java:S131“""Add a default case to this switch.(×“¾ñùÿÿÿÿ
+Q
+java:S1854Ã"5Remove this useless assignment to local variable "m".(µˆë„ÿÿÿÿÿ
+B
+java:S1481Ã"&Remove this unused "m" local variable.(µˆë„ÿÿÿÿÿ

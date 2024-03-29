@@ -1,0 +1,31 @@
+
+F
+java:S1066‹"/Merge this if statement with the enclosing one.(Çå³
+>
+java:S1604>"(Make this anonymous inner class a lambda(©º¬
+>
+java:S1604E"(Make this anonymous inner class a lambda(ë«“
+>
+java:S1604w"(Make this anonymous inner class a lambda(Ñ´Ñ
+>
+java:S1604}"(Make this anonymous inner class a lambda(éê…¬
+D
+java:S1604š"(Make this anonymous inner class a lambda(„¬é¿øÿÿÿÿ
+D
+java:S1604¤"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ
+W
+java:S49739"<Strings and Boxed types should be compared using "equals()".(ÚÏô£ûÿÿÿÿ
+/
+java:S1700!"Rename field "login"(–ºúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÉ©Ş
+o	java:S116'"ZRename this field "sharedpref_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üº¥ü
+A
+java:S1659 "&Declare "password" on a separate line.(ÅèÍ‹øÿÿÿÿ
+?
+java:S1659!"$Declare "signup" on a separate line.(–ºúÿÿÿÿ
+c	java:S100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘²·ğ
+=
+java:S1659j""Declare "done" on a separate line.(‰ãâùúÿÿÿÿ
+d	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‘
+f
+java:S1874­"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ

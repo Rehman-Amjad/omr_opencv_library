@@ -1,0 +1,49 @@
+
+f
+java:S1192g"KDefine a constant instead of duplicating this literal "EMAIL_here" 6 times.(ë…’ÿÿÿÿÿ
+h
+java:S1192l"MDefine a constant instead of duplicating this literal "onComplete: " 3 times.(ãöÀÇüÿÿÿÿ
+E
+java:S1066B"/Merge this if statement with the enclosing one.(§·¸†
+>
+java:S1604/"(Make this anonymous inner class a lambda(ôË¯»
+C
+java:S1604["(Make this anonymous inner class a lambda(ôÍÒşÿÿÿÿ
+>
+java:S1604i"(Make this anonymous inner class a lambda(éÀ¾
+?
+java:S1604‹"(Make this anonymous inner class a lambda(½‘¦õ
+?
+java:S1604‡"(Make this anonymous inner class a lambda(¦ú ë
+D
+java:S1604š"(Make this anonymous inner class a lambda(œÁÈÌşÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(••ËÅøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùÉ©Ş
+e	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚
+m	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬›™Âûÿÿÿÿ
+r	java:S116"XRename this field "submit_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÜÊŠûÿÿÿÿ
+i	java:S116"TRename this field "Email_get" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÀˆÂ
+l	java:S116 "WRename this field "password_get" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ëãÁ
+k	java:S116!"QRename this field "Userid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•­¿âøÿÿÿÿ
+d
+java:S1845"NRename field "Email" to prevent any misunderstanding/clash with field "email".(áï»‚
+o
+java:S1845"TRename field "Password" to prevent any misunderstanding/clash with field "password".(¬›™Âûÿÿÿÿ
+<
+java:S1659"&Declare "password" on a separate line.(…é¶ê
+o
+java:S1450$"TRemove the "error" field and declare it as a local variable in the relevant methods.(ÍÌÆ‹ÿÿÿÿÿ
+w
+java:S1450"\Remove the "submit_button" field and declare it as a local variable in the relevant methods.(úÜÊŠûÿÿÿÿ
+c	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¹Û¬
+c	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„û™
+h	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ŠÑÚùÿÿÿÿ
+d	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ§×Í
+f
+java:S1874¢"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ
+V
+java:S1161¢":Add the "@Override" annotation above this method signature(œƒƒ©ùÿÿÿÿ
+?
+java:S1068")Remove this unused "Email" private field.(áï»‚
+G
+java:S1068",Remove this unused "Password" private field.(¬›™Âûÿÿÿÿ

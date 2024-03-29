@@ -1,0 +1,10 @@
+
+k	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž‘¾ûÿÿÿÿ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©‡å…üÿÿÿÿ
+>
+java:S1604 "(Make this anonymous inner class a lambda(©Àîã
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ðó˜ñ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(·Ë‚Ýüÿÿÿÿ
+e
+java:S18745"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(œƒƒ©ùÿÿÿÿ

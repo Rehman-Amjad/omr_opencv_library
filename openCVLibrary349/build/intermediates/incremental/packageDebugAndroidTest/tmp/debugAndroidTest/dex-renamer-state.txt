@@ -1,0 +1,4 @@
+#Fri Mar 29 15:59:47 PKT 2024
+base.0=/Users/mac/Downloads/OMR/openCVLibrary349/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

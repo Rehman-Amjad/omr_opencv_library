@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/signout_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custombutton_stroke"
+            android:text="SIGNOUT"
+            android:textColor="@color/Yellow"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/qr_image_std"
+            android:layout_width="match_parent"
+            android:layout_height="368dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:paddingLeft="20dp"
+                android:text="Student Rollno :"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_st"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|right"
+                android:paddingRight="30dp"
+                android:text="TEXT HERE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:paddingLeft="20dp"
+                android:text="Class Name :"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/classname_item"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center|right"
+                android:paddingRight="30dp"
+                android:text="TEXT HERE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:paddingLeft="20dp"
+                android:text="SELECT COURSE :"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/Course_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:paddingLeft="20dp"
+                android:text="MARKS HISTORY:"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/marks_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/lightgray"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/yello"
+                    android:gravity="center"
+                    android:text="TOTAL"
+                    android:textColor="@color/normalColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/yello"
+                    android:gravity="center"
+                    android:text="OBTAINED"
+                    android:textColor="@color/normalColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/yello"
+                    android:gravity="center"
+                    android:text="DATE"
+                    android:textColor="@color/normalColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/marks_list"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

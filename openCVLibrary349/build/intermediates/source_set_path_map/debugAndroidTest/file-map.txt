@@ -1,0 +1,6 @@
+org.opencv.test.openCVLibrary349-androidTest-0 /Users/mac/Downloads/OMR/openCVLibrary349/build/generated/res/resValues/androidTest/debug
+org.opencv.test.openCVLibrary349-androidTest-1 /Users/mac/Downloads/OMR/openCVLibrary349/build/generated/res/rs/androidTest/debug
+org.opencv.test.openCVLibrary349-mergeDebugAndroidTestResources-2 /Users/mac/Downloads/OMR/openCVLibrary349/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+org.opencv.test.openCVLibrary349-mergeDebugAndroidTestResources-3 /Users/mac/Downloads/OMR/openCVLibrary349/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+org.opencv.test.openCVLibrary349-merged_res-4 /Users/mac/Downloads/OMR/openCVLibrary349/build/intermediates/merged_res/debugAndroidTest
+org.opencv.test.openCVLibrary349-packaged_res-5 /Users/mac/Downloads/OMR/openCVLibrary349/build/intermediates/packaged_res/debug

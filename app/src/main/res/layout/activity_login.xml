@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sign"
+    android:orientation="vertical"
+    android:weightSum="0"
+    tools:context=".SL_TEACHER.LOGIN">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/Yellow"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="SIGN IN"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/qrstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_alignTop="@+id/textView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="126dp"
+                app:srcCompat="@drawable/scanner" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/Login_status"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="18dp"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/username_signin"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="19dp"
+                android:drawableLeft="@drawable/ic_user_sign"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="EMAIL"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/zxing_status_text" />
+
+            <EditText
+                android:id="@+id/password_signin"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_alignTop="@+id/username_signin"
+                android:layout_alignEnd="@+id/username_signin"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="19dp"
+                android:drawableLeft="@drawable/ic_pass_sign"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:textColor="@color/white"
+                android:textColorHint="@color/zxing_status_text" />
+
+            <TextView
+                android:id="@+id/forget_password_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="238dp"
+                android:fontFamily="@font/biorhyme_bold"
+                android:gravity="center"
+                android:text="FORGET PASSWORD?"
+                android:textColor="@color/Yellow"
+                android:textColorHint="@color/warningColor"
+                android:textSize="16sp"
+                android:clickable="true"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_sign"
+            android:text="LOGIN" />
+
+        <TextView
+            android:id="@+id/new_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/newUser"
+            android:textColor="@color/Yellow" />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/custombutton_stroke"
+            android:text="SIGNUP"
+            android:textColor="@color/white_greyish" />
+
+    </LinearLayout>
+
+</ScrollView>
