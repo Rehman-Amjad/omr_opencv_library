@@ -26,48 +26,65 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".sheet_opencv" android:exported="false"></activity>
-        <activity android:name=".SETTINGS.SETTING"
-            android:exported="false"/>
-        <activity android:name=".SL_TEACHER.SIGNUP_VERIFY"
-            android:exported="false"/>
+        <activity
+            android:name=".AnswerCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sheet_opencv"
+            android:exported="false" />
+        <activity
+            android:name=".SETTINGS.SETTING"
+            android:exported="false" />
+        <activity
+            android:name=".SL_TEACHER.SIGNUP_VERIFY"
+            android:exported="false" />
         <activity
             android:name=".OMR_FUNCTION.OMR_SCANNER"
+            android:exported="false"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="false"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".OMR_FUNCTION.Subject_info"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="false"/>
-        <activity android:name=".LOGIN_SELECTION"
-            android:exported="false"/>
-        <activity android:name=".qr_scanner"
-            android:exported="false"/>
-        <activity android:name=".RECORD.list_click_detail"
-            android:exported="false"/>
-        <activity android:name=".MainActivity"
-            android:exported="false"/>
-        <activity android:name=".OMR_FUNCTION.Scanner_setup"
-            android:exported="false"/>
-        <activity android:name=".QR_GENERATOR.QR_GENERATOR"
-            android:exported="false"/>
-        <activity android:name=".RECORD.HISTORY"
-            android:exported="false"/>
-        <activity android:name=".DASHBOARD"
-            android:exported="false"/>
-        <activity android:name=".SL_STUDENT.MainActivity"
-            android:exported="false"/>
-        <activity android:name=".SL_TEACHER.SIGNUP"
-            android:exported="false"/>
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".LOGIN_SELECTION"
+            android:exported="false" />
+        <activity
+            android:name=".qr_scanner"
+            android:exported="false" />
+        <activity
+            android:name=".RECORD.list_click_detail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OMR_FUNCTION.Scanner_setup"
+            android:exported="false" />
+        <activity
+            android:name=".QR_GENERATOR.QR_GENERATOR"
+            android:exported="false" />
+        <activity
+            android:name=".RECORD.HISTORY"
+            android:exported="false" />
+        <activity
+            android:name=".DASHBOARD"
+            android:exported="false" />
+        <activity
+            android:name=".SL_STUDENT.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SL_TEACHER.SIGNUP"
+            android:exported="false" />
         <activity
             android:name=".SL_TEACHER.LOGIN"
             android:noHistory="true" />
         <activity
             android:name=".SPLASH_SCREEN.SPLASH_SCREEN"
+            android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

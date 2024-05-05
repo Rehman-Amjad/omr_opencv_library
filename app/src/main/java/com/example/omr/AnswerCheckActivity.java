@@ -1,14 +1,9 @@
-package com.example.omr.OMR_FUNCTION;
-
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.omr;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -17,17 +12,21 @@ import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.example.omr.AnswerCheckActivity;
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
 import com.example.omr.SHAREDPREFRENCES.SHAREDPREF_ANSWER;
 import com.example.omr.TOAST.CUSTOM_TOAST;
-import com.example.omr.R;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Scanner_setup extends AppCompatActivity {
+public class AnswerCheckActivity extends AppCompatActivity {
+
     private int[] id16,id24,Q_Visibilty16,Q_Visibilty24,Q_INVISIBLE;
     private LinearLayout Llayout;
     private Button button;
@@ -46,14 +45,16 @@ public class Scanner_setup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scanner_setup);
+
+        setContentView(R.layout.activity_answer_check);
+
         custom_toast=new CUSTOM_TOAST(getApplicationContext());
         sharedpref_answer=new SHAREDPREF_ANSWER(getApplicationContext());
         Answers=new ArrayList<>();
         if(usepreviousanswers==true){
             if(!sharedpref_answer.getAnswers().equals("false")){
-                  startup();
-        }}
+                startup();
+            }}
         autopassing=findViewById(R.id.AUTO_PASS);
         ap_none=findViewById(R.id.none_ap);
         ap_none.setChecked(true);
@@ -120,6 +121,8 @@ public class Scanner_setup extends AppCompatActivity {
 
 
 
+
+
     }
 
     public void selected_16(){
@@ -129,16 +132,16 @@ public class Scanner_setup extends AppCompatActivity {
             RadioGroup rg=(RadioGroup)findViewById(ids);
             int selectedid=rg.getCheckedRadioButtonId();
             if(selectedid == -1){
-               custom_toast.ToastError("Please Select All The Answers");
-               Accurate=false;
-               break;
+                custom_toast.ToastError("Please Select All The Answers");
+                Accurate=false;
+                break;
             }
             else{
-            RadioButton button=findViewById(selectedid);
-            Answers.add(button.getText().toString());
-            Log.d("SELECTED", "selected: "+button.getText());
-            Log.d("Answers", "selected: "+Answers);
-            Accurate=true;
+                RadioButton button=findViewById(selectedid);
+                Answers.add(button.getText().toString());
+                Log.d("SELECTED", "selected: "+button.getText());
+                Log.d("Answers", "selected: "+Answers);
+                Accurate=true;
                 Log.d("SELECTIT", "selected: "+Accurate);
 
             }
@@ -153,12 +156,8 @@ public class Scanner_setup extends AppCompatActivity {
             sharedpref_answer.setsubject(subjectname);
 
 
-
 //            Intent intent=new Intent(getApplicationContext(), com.example.omr.OMR_FUNCTION.OMR_SCANNER.class);
 //            startActivity(intent);
-
-            Intent intent=new Intent(getApplicationContext(), AnswerCheckActivity.class);
-            startActivity(intent);
 
         }
     }
@@ -223,16 +222,16 @@ public class Scanner_setup extends AppCompatActivity {
     }
     public void Submit_Answers(){
         if(subject_select){
-        if(option_Question.equals("16")){
-            selected_16();
-            Autopassing();
-            Log.d("SELECTARRAY", "Submit_Answers: "+Answers.get(2));
+            if(option_Question.equals("16")){
+                selected_16();
+                Autopassing();
+                Log.d("SELECTARRAY", "Submit_Answers: "+Answers.get(2));
 
-        }
-        if(option_Question.equals("24")){
-             selected_24();
-             Autopassing();
-        }}
+            }
+            if(option_Question.equals("24")){
+                selected_24();
+                Autopassing();
+            }}
         else {
             custom_toast.ToastError("PLEASE SELECT SUBJECT FIRST");
         }
